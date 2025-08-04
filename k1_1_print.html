@@ -1,0 +1,1495 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>KS Docs</title>
+<style>
+body {
+margin: 0;
+/*background-color: #ffeecc;*/
+}
+
+* {
+font-size: 24px;
+}
+
+#fixed-div {
+/*position:sticky;*/
+position: fixed;
+width: 100%;
+top: 0;
+background-color:#fce ;
+}
+
+button {
+border: 2px solid #4CAF50;
+padding: 4px 4px;
+background-color: lightcyan;
+color: darkred;
+border-radius: 12px;
+margin: 4px 4px 4px 4px;
+}
+
+i {
+Color: #00f;
+}
+
+s { 
+  text-decoration: none;
+  background-color: pink;
+}
+
+u { 
+  text-decoration: none;
+  background-color: cyan;
+}
+
+.tab1 {
+display: none;
+margin-top: 20px;
+padding-bottom: 40px;
+}
+
+
+
+table {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+td {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+tr:nth-child(odd) {
+background-color: #fcf2f9;
+}
+
+tr.clicked {
+background: #080;
+color: #fff;
+text-decoration: line-through;
+}
+
+</style>
+<style media="print">
+#fixed-div {
+display: none;
+}
+button { display: none;}
+</style>
+<script>
+setInterval(myTimer, 1000);
+
+function myTimer() {
+const d = new Date();
+document.getElementById("demo1").innerHTML = d.toLocaleTimeString('en-GB');
+}
+</script>
+
+</head>
+<body onload="showTab('raj','Tap Home Button')">
+
+<div id="fixed-div">
+<button onclick="showTab('home','KS Docs (Ver.24c)')">Home</button>
+<b id="chead">Tap Home Button</b><br />
+
+
+<b style="float: left" id="demo"></b>
+<b style="float: right" id="demo1"></b>
+<br />
+
+</div>
+<div class="tab" id="raj"><br /><br /><br /><br /><br /><br />RAJ <br /> Dara <br /> dad</div>
+<div class="tab" id="preks">
+Pre-KS Activities<br /><br />
+<i>Execute this checklist after getting scheduled for KS/KR(about 10-15 days before KS/KR)</i>
+<table>
+<!-- ***********Below Can be Modified for contents of checklist -->
+<!--<tr><td colspan="2"><i> a) Self</i></td></tr>-->
+<tr><td> 1 </td><td>Check your Readiness and inform your decision to scheduling team. </td></tr>
+<tr><td> 2 </td><td> Call your Team mate. </td></tr>
+<tr><td> 3 </td><td> Plan your journey in consultation with your Team mate & E.M. </td></tr>
+<tr><td> 4 </td><td> Call your Team mate. </td></tr>
+<tr><td> 5 </td><td>Review feedbacks and learnings from past performance. </td></tr>
+<tr><td> 6 </td><td> Review KS Manual. </td></tr>
+<tr><td> 7 </td><td> Review Agreements.<button onclick="showTab('agree',this.innerHTML)">Agreements</button> </td></tr>
+<tr><td> 8 </td><td> Revisit Talent LMS.<button><a href="https://wopi.talentlms.com/" target="_blank">LMS</a></button> </td></tr>
+<tr><td> 9 </td><td> Take information from KST visited previously to that venue.</td></tr>
+<tr><td> 10 </td><td> Talk to coach. </td></tr>
+<tr><td> 11 </td><td> Talk to Event Team as per checklist on phone.<button onclick="showTab('intro',this.innerHTML)">Event Team Intro</button> </td></tr>
+<tr><td> 12 </td><td> Review iPad Safety documents.<button onclick="showTab('safety',this.innerHTML)">iPad Safety</button> </td></tr>
+<tr><td> 13 </td><td> Execute Pre-flight checklist <button onclick="showTab('preFl',this.innerHTML)">Pre-flight Checklist</button> </td></tr>
+
+<!-- ***********Above Can be Modified for contents of checklist -->
+</table>
+   
+</div>
+
+<div class="tab" id="agree">
+Agreements v1.4 Date:20-05-2025<br /><br />
+<i> Reivew and follow the agreements </i>
+<table>
+<!-- ***********Below Can be Modified for contents of checklist -->
+<tr><td colspan="2"><i> a) Criteria & Standard for Deal-Breaker (KS)</i></td></tr>
+
+<tr><td> 1 </td><td> Criteria: Participation; Standard: Those who should be in… </td></tr>
+<tr><td> 2 </td><td> Criteria: Safety; Standard: Proper planning, Evacuation Plan including
+fire safety etc…</td></tr>
+<tr><td> 3 </td><td> Criteria: Privacy; Standard: Inside – Disturbance from outside not
+preventing attendees from the opportunity to learn Ts. People inside not
+able to understand the media because of outside noise interfering
+inside.</td></tr>
+<tr><td> 4 </td><td> Criteria: Permission; Standard: No permission will cause to stop KS.
+(like permission from Local Police, Schedule Approval from KSCT,
+Authoirization Keys) </td></tr>
+
+<tr><td colspan="2"><i> b) Criteria & Standard for Deal-Breaker (KST)</i></td></tr>
+<tr><td> 1 </td><td> Frequency: Recertification every 6 months and at least 1 KS/KR every
+90 days. </td></tr>
+<tr><td> 2 </td><td> Code of Conduct: Breach of Code of Conduct possibly may lead to Deal Breaker. </td></tr>
+<tr><td> 3 </td><td> Complaint: Anything more than a zero (0), i.e. having 1 or more
+complaints. </td></tr>
+<tr><td> 4 </td><td> Deal Breakers: Not recognizing Deal Breakers as a Deal Breaker AND
+causing / something as a Deal Breaker when it is NOT. </td></tr>
+
+<tr><td colspan="2"><i> c) Agreements</i></td></tr>
+<tr><td> 1 </td><td> After KS Schedule is published, if a KST member finds him/herself
+unable in conducting a KS/KR, (s)he will find his/her replacement and
+inform KS Office and KSCT. KST will inform the change in schedule or
+cancellation if any to the assessor and also inform who is replacement. </td></tr>
+<tr><td> 2 </td><td> Before going to a venue for KS/KR, the K6F will collect any feedback
+/update from other KSTs who have already been there in the past. </td></tr>
+<tr><td> 3 </td><td> The Conductor will practice the verbatim of the media before every set
+of KS/KRs he/she is going to facilitate at a venue.</td></tr>
+<tr><td> 4 </td><td> KS Facilitator should be in touch with their coaches on regular basis. </td></tr>
+<tr><td> 5 </td><td> KS Facilitator must read the iPad safety document before leaving for the
+KS/KR. </td></tr>
+<tr><td> 6 </td><td> 3 days criteria for passing an issue/feedback to KSCT if failed to give to
+relevant person/authority-72-Hrs. Rule. (Recert, Oct-04) </td></tr>
+<tr><td> 7 </td><td> KS/KR Start Time: Media shows up on screen; KS/KR End Time: Last
+attendee leaves the hall after replay. </td></tr>
+<tr><td> 8 </td><td> Replay Structure: Whisper attendees to stay for replay as per script
+before the end of T4-Practice, use usher to hold or send them out,
+make replay announcement and start replay.</td></tr>
+<tr><td> 9 </td><td> Live announcement to conclude in PEAK Media
+Replay </td></tr>
+<tr><td> 10 </td><td> Condcutor can do verbatim (manually) only when (s)he has been
+certified for manual interventions. </td></tr>
+<tr><td> 11 </td><td> Intervene only those who are practising grossly incorrect from
+attendee's stand point. </td></tr>
+<tr><td> 12 </td><td> Operator and Conductor will reach Venue/ Venue city at least 1 day
+prior to the KS /KR event. </td></tr>
+<tr><td> 13 </td><td> The ipad cannot be carried by anyone outside the KS Team, for e.g.
+the AV Operator etc.. </td></tr>
+<tr><td> 14 </td><td> If the deal-breaker occurs for K6F, then he/she will accept suspension
+until investigation is done, and will abide by the recommendation of the
+KSCT and Board. </td></tr>
+<tr><td> 15 </td><td> At least 1 KS/KR every 45 days. </td></tr>
+<tr><td> 16 </td><td> The Setup time for KS / KR is 2 hours before scheduled start time. </td></tr>
+<tr><td> 17 </td><td> Practice time 20 or 15 minute can't be changed as per facilitators wish </td></tr>
+<tr><td> 18 </td><td> 30 minute Break time can't be shortened . NO Replay during Break.
+(Break stays Break and Replay stays Replay) </td></tr>
+<tr><td> 19 </td><td> Conductor will use only the approved script during interventions. </td></tr>
+<tr><td> 20 </td><td> Lady tapper will tap & say 'Behenji' and move, the rest of the script will be
+instructed by the conductor only. </td></tr>
+<tr><td> 21 </td><td> If Conductor requests Operator to help in intervention and Operator
+feels comfortable, (s)he can assist Conductor. </td></tr>
+<tr><td> 22 </td><td> KS Team Member has to attend the Recert every 6 months.No one
+enters the recert hall after door closes at 9 am (or time decided) on the
+day of recert.
+Every KS Facilitator should spare 2 full days for recertification - must
+plan
+to leave at or after 6 pm on the last day of recertification. </td></tr>
+<tr><td> 23 </td><td> If any KS Facilitator falls in coaching category for 3 consecutive times
+during the recertification then he/she will not be recertified. </td></tr>
+<tr><td> 24 </td><td> When a deal breaker occurs, Dr A K singh Ji will do the assessment call and
+upload the report with a red flag within 24 hours and inform KSCT.</td></tr>
+<tr><td> 25 </td><td> KSCT will coach within 24-48 hours ( the first call) in case of DB / red
+flag. </td></tr>
+<tr><td> 26 </td><td> The Assessor will assess the KST within 48 to 72 hours of the session
+and will upload the report. </td></tr>
+<tr><td> 27 </td><td> For an amber flagged session, the coach will have a call with the
+coachee within 48-72 hours. </td></tr>
+<tr><td> 28 </td><td> If a KS facilitator commits a deal breaker or falls in a coaching category,
+he or she should submit a learning plan and will implement it with help of the coach. </td></tr>
+<tr><td> 29 </td><td> Mobile Phones should Be Switched Off or on flight mode during session </td></tr>
+<tr><td> 30 </td><td> CV's should be supported by relevant data and has to be published in respective whatsapp group along with summary report </td></tr>
+<tr><td> 31 </td><td> KST or Assessor is responsible to upload the data in KS tool within 48 hours of session </td></tr>
+<tr><td> 32 </td><td> Ipad Authorisation Keys should be requested and Ipad movement plan should be shared using the link in ksd__.html file or
+ksteam.w3spaces.com Home>pre ks activities> Ipad Safety> Key request/Movement Plan  </td></tr>
+<tr><td> 33 </td><td> In spite of using 'Maharaji' in announcement and scripts of key6 media, KST will use 'Prem Rawat ji' for all type of KS media. </td></tr>
+
+<!-- ***********Above Can be Modified for contents of checklist -->
+</table>
+</div>
+
+
+<div class="tab" id="intro">
+Event Team Intro Call<br /><br />
+<i>Please execute this checklist to share the information about readiness on call</i>
+<table>
+<!-- ***********Below Can be Modified for contents of checklist -->
+<tr><td> 1 </td><td> Venue, Date and Timing, Feedback of last KST</td><td> explored </td></tr>
+<tr><td> 2 </td><td> Rally / Gathering </td><td> explored </td></tr>
+<tr><td> 3 </td><td> Privacy in KS hall (A/V leakage) CCTV </td><td> confirmed </td></tr>
+<tr><td> 4 </td><td> Comfort and facilities </td><td> explored </td></tr>
+<tr><td> 5 </td><td> Travel plan with Event team</td><td> planned</td></tr>
+<tr><td> 6 </td><td> Accommodation (Attendee/Team)</td><td> planned </td></tr>
+<tr><td> 7 </td><td> Local Transport</td><td> planned </td></tr>
+<tr><td> 8 </td><td> Team and Attendee Readiness </td><td> checked </td></tr>
+<tr><td> 9 </td><td> Checklist availability </td><td> confirmed </td></tr>
+<tr><td> 10 </td><td> Special Needs if any </td><td> explored </td></tr>
+<tr><td> 11 </td><td> 18-20 if any (Legally Valid certificate) </td><td> checked </td></tr>
+<tr><td> 12 </td><td> Smart Card or photo of PWK for KR </td><td> required </td></tr>
+<tr><td> 13 </td><td> M address cards for KS </td><td> confirmed </td></tr>
+<tr><td> 14 </td><td> Tapper if needed </td><td> confirmed </td></tr>
+<tr><td> 15 </td><td> No service from participating aspirants </td><td> confirmed </td></tr>
+<tr><td> 16 </td><td> Contact details of AV and Electrician </td><td> received </td></tr>
+<tr><td> 17 </td><td> Projector, VGA/HDMI cable and av equipment </td><td> confirmed </td></tr>
+<tr><td> 18 </td><td> Translation and hard hearing equipment </td><td> explored </td></tr>
+<tr><td> 19 </td><td> Electricity Status/Backup supply/ UPS/ Generator </td><td> checked </td></tr>
+<tr><td> 20 </td><td> Fan/ cooler/ AC </td><td> explored </td></tr>
+<tr><td> 21 </td><td> Lights and dimmer availability </td><td> explored </td></tr>
+<tr><td> 22 </td><td> Proper Earthing of equipment </td><td> explored </td></tr>
+<tr><td> 23 </td><td> Covid-guidelines following </td><td> explored </td></tr>
+
+<!-- ***********Above Can be Modified for contents of checklist -->
+</table>
+</div>
+<div class="tab" id="safety">
+iPad Safety Guide<br /><br />
+<i>This is quick reference for iPad safety</i>
+<details><summary>Pre-Travel</summary><ol>
+<li>Communication with KSCT/ Event Manger/ KST done</li>
+<li>Plan most secure mode of Travel (Car / AC train / AC bus/ Flight)</li>
+<li>iPad movement Plan shared with designated person </li>
+</ol></details>
+<details><summary>During Travel</summary><ol>
+<li>Keep iPad kit always in your possession</li>
+<li>iPad never be kept on ground at Railway platform/bus station/airport</li>
+<li>No food / drink from co-passengers</li>
+<li>Remain conscious and alert about the environment </li>
+<li>Keep low profile and do not discuss about the iPad in public</li>
+<li>During security check, position yourself in such a way that iPad kit will never be out of sight</li>
+</ol></details>
+<details><summary>While Giving</summary><ol>
+<li>Plan well in advance and share with designated person for a safe and secure handover</li>
+<li>Ensure items are as per Pre-Flight Checklist available in the Bag </li>
+<li>Try to hand over the iPad kit at the most secure place</li>
+<li>Maintain low profile so that it does not invite others attention</li>
+<li>iPad kit should be differentiated with personal bag</li>
+<li>While giving make sure it is correct bag</li>
+</ol></details>
+<details><summary>While Taking</summary><ol>
+<li>Plan well in advance for a safe and secure takeover</li>
+<li>While taking make sure that it is correct bag by conscious touch or view</li>
+<li>Keep low profile and do not discuss about the iPad in public</li>
+</ol></details>
+<details><summary>While Storing</summary><ol>
+<li>Check all equipment in the Bag as per Pre-Flight Checklist</li>
+<li>Secure in Cupboard/ Trunk at a place not used by others in house</li>
+<li>Ensure storage area is free from dust, dampness of wall etc.</li>
+<li>Make a note of the next Date to Charge iPad regularly</li>
+<li>Update system as and when informed</li>
+</ol></details>
+<details><summary>Movement Plan</summary>
+<i>Please share each movement plan of iPad with complete/return journey details, It may be for Handover, for KR/KR or for Recert</i>
+<br />
+<button><a href="https://forms.gle/EdNEan3dXiAEsCRMA" target="_blank">iPad Movement Plan</a></button>
+</details>
+<details><summary>Key Request</summary>
+<i>Please request keys at least 2 days in advance, And check its details and validity before saving, Delete the E-mail after saving</i>
+<br />
+<button><a href="https://forms.gle/nwnrdPDg6W6Y6Svy5" target="_blank">Key Request</a></button>
+</details>
+</div>
+
+
+<div class="tab" id="preFl">
+Pre Flight-Checklist<br /><br />
+<i>Please execute this checklist before you proceed on a tour</i>
+
+<table>
+<!-- <tr onclick="this.classList.toggle('clicked')"> -->
+<!-- ***********Below Can be Modified for contents of checklist -->
+
+
+<tr title="Working condition&#013Passwords&#013Battery status&#013MDM certificate">
+<td>1 </td>
+<td>KS iPad:
+<ul>
+<li>Working condition </li>
+<li>Passwords </li>
+<li>Battery status </li>
+<li>MDM certificate </li>
+</ul>
+</td>
+<td>Checked </td>
+</tr>
+<tr>
+<td>2 </td>
+<td>iPad Charger & Charging cable (Lighting to USB) </td>
+<td>Checked </td>
+</tr>
+<tr>
+<td>3 </td>
+<td>Lightning_to_VGA Adaptor </td>
+<td>Checked </td>
+</tr>
+<tr>
+<td>4 </td>
+<td>Audio cable (stereo mini jack > 2x mono jack) </td>
+<td>Optional </td>
+</tr>
+<tr>
+<td>5 </td>
+<td>Power strip with Surge protector </td>
+<td>Optional </td>
+</tr>
+<tr>
+<td>6 </td>
+<td>VGA cable </td>
+<td>Optional </td>
+</tr>
+<tr>
+<td>7 </td>
+<td>KS Manual / Announcements & Checklists </td>
+<td>Checked </td>
+</tr>
+<tr>
+<td>8 </td>
+<td>Mobile Phone with Internet connectivity for hotspot </td>
+<td>Ensured </td>
+</tr>
+<tr>
+<td>9 </td>
+<td>Venue Address and Details </td>
+<td>Noted </td>
+</tr>
+<tr>
+<td>10 </td>
+<td>Contacts (EM, KST, KSCT, KS Office) </td>
+<td>Noted </td>
+</tr>
+<tr>
+<td>11 </td>
+<td>Operator-Conductor Schedule, KS KR Schedule </td>
+<td>Noted </td>
+</tr>
+<tr>
+<td>12 </td>
+<td>iPad Movement plan </td>
+<td>Shared </td>
+</tr>
+<tr>
+<td>13 </td>
+<td>Authorization key </td>
+<td>Received </td>
+</tr>
+
+
+<!-- ***********Above Can be Modified for contents of checklist -->
+</table>
+</div>
+<div class="tab" id="durks">
+During KS Activities<br /><br />
+<i>Execute these checklists and procedures after reaching venue.(Day before and on KS/KR day)</i><br />
+1<button onclick="showTab('meet',this.innerHTML)">Local Team Meeting</button><br />
+2<button onclick="showTab('preset',this.innerHTML)">Pre-setup checks</button><br />
+3<button onclick="showTab('setup',this.innerHTML)">iPad Setup Checklist</button><br />
+4<button onclick="showTab('tech',this.innerHTML)">Technical Checks</button><br />
+5<button onclick="showTab('prep',this.innerHTML)">KS/KR Preparation</button><br />
+6<button onclick="showTab('ksRun',this.innerHTML)">KS Rundown</button><br />
+7<button onclick="showTab('krRun',this.innerHTML)">KR Rundown</button><br />
+8<button onclick="showTab('post',this.innerHTML)">Post-event Checklist</button><br />
+</div>
+<div class="tab" id="meet">
+Local Team Meeting<br /><br />
+<details>
+<summary>Registration:
+</summary>
+<ol>
+<li>Number of attendees(M/F)</li>
+<li>Special Needs</li>
+<li>Translation</li>
+<li>18-20 age (certificate)</li>
+<li>Card color/ Validity</li>
+</ol>
+</details>
+<details>
+<summary>Medical:
+</summary>
+<ol>
+<li>Special Needs</li>
+<li>Medicines and Expiry date</li>
+<li>First-Aid Box/ Supply Table Check</li>
+<li>Recovery room/ stretcher/ wheel chair</li>
+<li>Ambulance/contacts</li>
+<li>Uniform (Apron/Gloves)</li>
+<li>Sanitizer/Mask/ Thermal Gun </li>
+<li>Ensure Hygiene/ cleanliness in surrounding</li>
+</ol>
+</details>
+
+<details>
+<summary>Health & Support:
+</summary>
+<ol>
+<li>Cleanliness of toilets and urinals</li>
+<li>No. of Toilets M/F</li>
+<li>Availability of soap/ Water</li>
+</ol>
+</details>
+
+<details>
+<summary>Security:
+</summary>
+<ol>
+<li>Positions</li>
+<li>Mobile/camera/recorder</li>
+<li>Card check/entry count</li>
+<li>Inform A/V leakage</li>
+<li>Fire & safety</li>
+<li>Secure belongings</li>
+</ol>
+</details>
+<details>
+<summary>Hall manager:
+</summary>
+<ol>
+<li>Setup (celling, smell, ventilation, comfort)</li>
+<li>Mosquito Repeller</li>
+<li>CCTV's disconnected</li>
+<li>Emergency evacuation plan</li>
+<li>M Address Cards</li>
+<li>Sync with in room staff during session</li>
+<li>Position</li>
+<li>Gadda/ Chairs/ Dust Bin</li>
+<li>Bed Sheet/ Pillow/ Blanket</li>
+<li>Madhuvani,Sualin,Clove and Cardamum</li>
+<li>Nail Clipper,Scissor</li>
+<li>Wet Tissue/ Face Tissue</li>
+<li>Mask,Sanitizer,Temp Gun</li>
+<li>Disposable Glass/ Plastic Spoons</li>
+<li>Water Bottles,Black Polythene</li>
+</ol>
+</details>
+<details>
+<summary>Ushering:
+</summary>
+<ol>
+<li>Seating plan (with HM & medical/ registration)</li>
+<li>Inform (Toilet/Water/ Medical/ Mobile/Recording)</li>
+<li>Tapping (scentless/ soundless/ decent wear)</li>
+<li>Avoid talking, Use indications</li>
+</ol>
+</details>
+<details>
+<summary>Electricity:
+</summary>
+<ol>
+<li>UPS</li>
+<li>Generator</li>
+<li>Dimmer</li>
+<li>Lights</li>
+<li>Fans/cooler/AC</li>
+<li>Emergency light</li>
+<li>Position</li>
+</ol>
+</details>
+<details>
+<summary>A/V:
+</summary>
+<ol>
+<li>Projector/ Screen/ VGA cable</li>
+<li>Mixer/Amplifier/ Speakers</li>
+<li>Mic and audio cables</li>
+<li>Headphones</li>
+<li>Laptop/DVD player</li>
+<li>Cells for remote/ Mic</li>
+<li>White noise setup</li>
+</ol>
+</details>
+<details>
+<summary>Catering:
+</summary>
+<ol>
+<li>Hygiene (kitchen/ break area)</li>
+<li>Breakfast</li>
+<li>Lunch/dinner</li>
+<li>Fast-food</li>
+<li>Water</li>
+<li>Timing</li>
+</ol>
+</details>
+<details>
+<summary>Accommodation:
+</summary>
+<ol>
+<li>Attendee &amp; family</li>
+<li>Team members</li>
+<li>Safety</li>
+<li>Water & facilities</li>
+<li>Bed</li>
+<li>Usher & Security</li>
+</ol>
+</details>
+<details>
+<summary>PR:
+</summary>
+<ol>
+<li>Emergency Nos (S.P Tripathi: 09899075324)</li>
+<li>Local Contacts</li>
+<li>Introduction Material/ CD/PR Desk</li>
+<li>Signal of Emergency</li>
+</ol>
+</details>
+<details>
+<summary>EM:
+</summary>
+<ol>
+<li>Neighborhood Gathering/ Safety/transport</li>
+<li>Finance</li>
+<li>Permissions</li>
+<li>Any information critical for KS/KR</li>
+<li>Schedule</li>
+</ol>
+</details>
+<details>
+<summary>PS Meet:
+</summary>
+<ol>
+<li>Wish</li>
+<li>Registration</li>
+<li>Translation</li>
+<li>Medical</li>
+<li>Special Need</li>
+<li>7 points<ul>
+<li>Shanti ka uphaar</li>
+<li>Above 18 (18-20 certificate)</li>
+<li>Mentally Fit</li>
+<li>No pregnant above 5 months</li>
+<li>If contagious disease, informed</li>
+<li>If involved with any mantra/guru, informed</li>
+<li>If already have tech, informed</li>
+</ul>
+</li>
+<li>Feedback</li>
+<li>Thanks</li>
+</ol>
+</details>
+
+
+
+</div>
+<div class="tab" id="preset">
+iPad Pre-Setup Checklist<br /><br />
+<i>Execute this checklist with Electrician and AV to ensure the healthy power and A/V equipment before iPad setup.</i>
+<table>
+<!-- ***********Below Can be Modified for contents of checklist -->
+<tr><td colspan="2"><i> a) Electricity</i></td></tr>
+
+<tr><td> 1 </td><td> City Supply availability/timings. </td></tr>
+<tr><td> 2 </td><td> City supply Voltages and stability. </td></tr>
+<tr><td> 3 </td><td> City Supply Earthing. </td></tr>
+<tr><td> 4 </td><td> Generator Capacity. </td></tr>
+<tr><td> 5 </td><td> Generator Voltages and stability. </td></tr>
+<tr><td> 6 </td><td> Generator Earthing as per Standard. </td></tr>
+<tr><td> 7 </td><td> Sufficient Fuel for Generator. </td></tr>
+<tr><td> 8 </td><td> UPS Capacity. (A/V and emergency lights load) </td></tr>
+<tr><td> 9 </td><td> Battery condition. (old/new, discharge rate) </td></tr>
+<tr><td> 10 </td><td> Surge protector for all av equipment on UPS.</td></tr>
+<tr><td> 11 </td><td> Condition of Switches/Plugs and cables used.</td></tr>
+<tr><td> 12 </td><td> UPS changeover to generator and back.</td></tr>
+
+<tr><td colspan="2"><i> b) Audio/Video</i></td></tr>
+<tr><td> 13 </td><td> No Noise/Humming/Buz </td></tr>
+<tr><td> 14 </td><td> Clear Voice, No loud or low </td></tr>
+<tr><td> 15 </td><td> Audible/Visible from every seat. </td></tr>
+<tr><td> 16 </td><td> Headphones &amp; cable for translation as needed </td></tr>
+<tr><td> 17 </td><td> Check the mic</td></tr>
+<tr><td> 18 </td><td> No Hum Bars on screen. </td></tr>
+<tr><td> 19 </td><td> Clear Picture, No bright or dull </td></tr>
+<tr><td> 20 </td><td> Check the Cell for mic and remote. </td></tr>
+<tr><td> 21 </td><td> Check the light/Fan/AC levels. </td></tr>
+<tr><td> 22 </td><td> Check on City Power/UPS/Generator </td></tr>
+<tr><td> 23 </td><td> Ensure no other power coming to iPad </td></tr>
+
+<tr><td colspan="2"><i> c) Venue Privacy</i></td></tr>
+<tr><td> 24 </td><td> No Audio/Video Leakage outside the hall. </td></tr>
+<tr><td> 25 </td><td> Requirement of White noise. </td></tr>
+<tr><td> 26 </td><td> No CCTV / recording devices in/near the hall. </td></tr>
+<tr><td> 27 </td><td> Requirement of emergency signal </td></tr>
+
+<!-- ***********Above Can be Modified for contents of checklist -->
+</table>
+</div>
+<div class="tab" id="setup">
+iPad Setup Checklist<br /><br />
+<i>Execute this checklist for AV setups using VGA enabled video projectors with
+audio output from the iPad Stereo port.</i>
+<table>
+<!-- ***********Below Can be Modified for contents of checklist -->
+
+<tr><td> 1 </td><td> Power strip (with surge protector) to AV power. (Switch in OFF position) </td><td> Connected </td></tr>
+<tr><td> 2 </td><td> Audio cable from iPad stereo port to Mixer </td><td> Connected </td></tr>
+<tr><td> 3 </td><td> VGA cable from Lightning_to_VGA Adaptor to Projector / TV </td><td> Connected </td></tr>
+<tr><td> 4 </td><td> Charging cable from iPad charger to Lightning_to_VGA Adaptor </td><td> Connected </td></tr>
+<tr><td> 5 </td><td> Lightning_to_VGA Adaptor to iPad Lightning port </td><td> Connected </td></tr>
+<tr><td> 6 </td><td> iPad charger into power strip </td><td> Plugged </td></tr>
+<tr><td> 7 </td><td> Power strip power </td><td> ON </td></tr>
+
+
+<!-- ***********Above Can be Modified for contents of checklist -->
+</table>
+</div>
+<div class="tab" id="tech">
+Technical & Dress Rehearsal<br /><br />
+<i>Before executing this checklist, verify that the KS Hall is clear of all Aspirants and /or other un-authorized personnel and venue staff.</i>
+<table>
+<!-- ***********Below Can be Modified for contents of checklist -->
+
+<tr><td> 1 </td><td> Knowledge Session Hall </td><td> Secured </td></tr>
+<tr><td> 2 </td><td> CCTV camera and recording device </td><td> Disconnected </td></tr>
+<tr><td> 3 </td><td> iPad Power switch </td><td> ON </td></tr>
+<tr><td> 4 </td><td> iPad Boot Up </td><td> Completed </td></tr>
+<tr><td> 5 </td><td> iPad Video output to projector screen or TV </td><td> Disabled </td></tr>
+<tr><td> 6 </td><td> iPad Password </td><td> Entered </td></tr>
+<tr><td> 7 </td><td> iPad Desktop displayed </td><td> Check </td></tr>
+<tr><td colspan="3"><i> Control Center Settings (Swipe up from bottom or down from top right corner of iPad to open control center interface) </i></td></tr>
+<tr><td> 8 </td><td> Airplane Mode </td><td> ON </td></tr>
+<tr><td> 9 </td><td> Wi-Fi </td><td> OFF </td></tr>
+<tr><td> 10 </td><td> Bluetooth </td><td> OFF </td></tr>
+<tr><td> 11 </td><td> Do Not Disturb </td><td> ON </td></tr>
+<tr><td> 12 </td><td> Orientation Lock </td><td> ON </td></tr>
+<tr><td> 13 </td><td> Volume level slider </td><td> Max </td></tr>
+<tr><td> 14 </td><td> Brightness level (adjust for room lighting level) </td><td> ~75% </td></tr>
+<tr><td> 15 </td><td> Control Center (tap iPad screen to close) </td><td> Close </td></tr>
+<tr><td colspan="3"><i> Start technical checks </i></td></tr>
+<tr><td> 16 </td><td> KS iPad Application (Tap KS App icon to start) </td><td> Opened </td></tr>
+<tr><td> 17 </td><td> KS Application Password </td><td> Entered </td></tr>
+<tr><td> 18 </td><td> iPad Video output to projector screen or TV </td><td> Enabled </td></tr>
+<tr><td> 19 </td><td> KS Authorization Key </td><td> Selected </td></tr>
+<tr><td> 20 </td><td> K6F/Peak, Eastern, language (Hindi)/other </td><td> Selected </td></tr>
+<tr><td> 21 </td><td> Event type: KS/KR </td><td> Selected </td></tr>
+<tr><td colspan="3"><i> Audio/Video Tests </i></td></tr>
+<tr><td> 22 </td><td> Test panel interface (tap "video test" button to open test panel) </td><td> Opened </td></tr>
+<tr><td> 23 </td><td> Options: "Audio/Video Out" / “Echo to window” </td><td> Selected </td></tr>
+<tr><td> 24 </td><td> “Bars & Tones” Adjust projector color settings (if necessary) </td><td> Play </td></tr>
+<tr><td> 25 </td><td> Skin Tones & Audio quality (PEAK – English, Pic- static) </td><td> Set </td></tr>
+<tr><td> 26 </td><td> No sound leakage outside the hall (Use white noise if needed) </td><td> Ensured </td></tr>
+<tr><td> 27 </td><td> Mic/ head phones(if used) </td><td> Set </td></tr>
+<tr><td> 28 </td><td> Exit test panel </td><td> Tap X </td></tr>
+<tr><td colspan="3"><i> Full Dress Rehearsal </i></td></tr>
+<tr><td> 29 </td><td> Proceed </td><td> Tapped </td></tr>
+<tr><td> 30 </td><td> Front & Back announcements (set mic) </td><td> Rehearsed </td></tr>
+<tr><td> 31 </td><td> Play full sequence in Rehearsal/Manual_override mode and adjust
+<ul>
+<li>Video quality (Screen Size, Resolution, Sharpness, Contrast, & Colors)</li>
+<li>Audio quality (Speaker, Headphones, Translation, mic, white noise)</li>
+<li>Light levels (Walk-in light, Practice light, and Video light) </li>
+<li>Power (backup and change over)</li>
+</ul>
+</td><td> Set </td></tr>
+
+<tr><td> 32 </td><td> Reset button (Rehearsal/Manual_override mode to Normal mode)</td><td> Tapped</td></tr>
+<tr><td> 33 </td><td> In room staff briefing &amp; agreements</td><td> Done </td></tr>
+
+
+<!-- ***********Above Can be Modified for contents of checklist -->
+</table>
+</div>
+<div class="tab" id="prep">
+KS/KR Preparation Checklist<br /><br />
+<i>Execute this checklist a few minutes prior to entry of Attendees</i>
+<table>
+<!-- ***********Below Can be Modified for contents of checklist -->
+
+<tr><td> 1 </td><td> All connections of the setup are intact </td><td> Verified </td></tr>
+<tr><td> 2 </td><td> iPad charging symbol icon on top of iPad screen visible </td><td> Verified
+</td></tr>
+<tr><td> 3 </td><td> KS or KR options (Media, Languages) selected correctly </td><td> Verified
+</td></tr>
+<tr><td> 4 </td><td> Play a section of media in Rehearsal/Manual_override mode to verify Audio and Video </td><td> Verified </td></tr>
+<tr><td> 5 </td><td> ‘Normal/Rehearsal’ Mode set to ‘Normal’ </td><td> Set </td></tr>
+
+
+<!-- ***********Above Can be Modified for contents of checklist -->
+</table>
+</div>
+<div class="tab" id="ksRun">
+KS Rundown<br /><br />
+<i>Please execute these steps for KS Rundown</i>
+<table>
+<!-- ***********Below Can be Modified for contents of checklist -->
+<tr><td> 1 </td><td> Set-up through check list </td></tr>
+<tr><td> 2 </td><td> Prchar sahayak meeting </td></tr>
+<tr><td> 3 </td><td> Tech check through check list </td></tr>
+<tr><td> 4 </td><td> Dress Rehearsal </td></tr>
+<tr><td> 5 </td><td> Staffs briefing/Alarm off </td></tr>
+<tr><td> 6 </td><td> KS/KR Preparation checklist </td></tr>
+<tr><td> 7 </td><td> Cool down </td></tr>
+<tr><td> 8 </td><td> Entry (Lights full) </td></tr>
+<tr><td> 9 </td><td> Count (Headphone Info, SpNeed) </td></tr>
+<tr><td> 10 </td><td> KS team intro (Front) </td></tr>
+<tr><td> 11 </td><td> KS announcements (Back) </td></tr>
+<tr title="Audio level/ unmute&#013White Noise&#013Headphones&#013Lights down&#013Note Start Time"><td> 12 </td><td>
+
+
+<dd>Audio level/ unmute</dd>
+<dd>White Noise</dd>
+<dd>Headphones</dd>
+<dd>Lights down</dd>
+<dd>Note Start Time</dd>
+Intro (Peak)/Vows (Key6)
+
+
+</td></tr>
+<tr><td> 13 </td><td> T1 demo + practice </td></tr>
+<tr><td> 14 </td><td> End Practice (check hands) </td></tr>
+<tr><td> 15 </td><td> T2 demo + practice (headphones) </td></tr>
+<tr><td> 16 </td><td> End Practice (check hands) </td></tr>
+<tr><td> 17 </td><td> T3 demo + practice (headphones) </td></tr>
+<tr><td> 18 </td><td> End Practice (check sleeping) </td></tr>
+<tr><td> 19 </td><td> T4 demo + practice </td></tr>
+<tr><td> 20 </td><td> Break info to team </td></tr>
+<tr><td> 21 </td><td> End Practice </td></tr>
+<tr><td> 22 </td><td> Break announcement (lights up) </td></tr>
+<tr><td> 23 </td><td> Break (Note Timing) </td></tr>
+<tr><td> 24 </td><td> KS/KR Preparation checklist </td></tr>
+<tr><td> 25 </td><td> Entry after Break </td></tr>
+<tr><td> 26 </td><td> Count (Headphone Info, SpNeed) </td></tr>
+<tr><td> 27 </td><td> Q & A (lights down) </td></tr>
+<tr><td> 28 </td><td> Practice T1 </td></tr>
+<tr><td> 29 </td><td> Practice T2 (headphones) </td></tr>
+<tr><td> 30 </td><td> Practice T3 </td></tr>
+<tr><td> 31 </td><td> Practice T4 </td></tr>
+<tr><td> 32 </td><td> Inform team/Address cards </td></tr>
+<tr><td> 33 </td><td> Whisper replay by conductor </td></tr>
+<tr><td> 34 </td><td> End of session (headphones) </td></tr>
+<tr><td> 35 </td><td> Follow-up announcement </td></tr>
+<tr><td> 36 </td><td> Attend. Exits (lights up) </td></tr>
+<tr><td> 37 </td><td> Re-Play announcement </td></tr>
+<tr title="White Noise&#013Headphones&#013Lights down"><td> 38 </td><td> Re-Play
+<ul>
+<li>White Noise</li>
+<li>Headphones</li>
+<li>Lights down</li>
+</ul>
+
+</td></tr>
+<tr><td> 39 </td><td> End of Re-Play </td></tr>
+<tr><td> 40 </td><td> R-Attend Exit (lights up) </td></tr>
+<tr><td> 41 </td><td> Conformation from Hall Manager </td></tr>
+<tr><td> 42 </td><td> Note End Time </td></tr>
+<tr><td> 43 </td><td> Staffs Debriefing </td></tr>
+
+
+<!-- ***********Above Can be Modified for contents of checklist -->
+</table>
+</div>
+<div class="tab" id="krRun">
+KR Rundown<br /><br />
+<i>Please execute these steps for KR Rundown</i>
+<table>
+<!-- ***********Below Can be Modified for contents of checklist -->
+<tr><td> 1 </td><td> Set-up through check list </td></tr>
+<tr><td> 2 </td><td> Tech check through check list </td></tr>
+<tr><td> 3 </td><td> Dress Rehearsal </td></tr>
+<tr><td> 4 </td><td> Staffs briefing/Alarm off </td></tr>
+<tr><td> 5 </td><td> KS/KR Preparation checklist </td></tr>
+<tr><td> 6 </td><td> Cool down </td></tr>
+<tr><td> 7 </td><td> Entry (Lights full) </td></tr>
+<tr><td> 8 </td><td> Count (Headphone Info, SpNeed) </td></tr>
+<tr><td> 9 </td><td> KS team intro (Front) </td></tr>
+<tr title="Audio level/ unmute&#013White Noise&#013Headphones&#013Lights down&#013Note Start Time"><td> 10 </td><td>
+<ul>
+<li><s>Audio level/ unmute </s></li>
+<li>White Noise</li> </ul>
+Intro (Peak)/Vows (Key6)
+<ul>
+<li>Audio level/ unmute</li>
+<li>White Noise</li>
+<li>Headphones</li>
+<li>Lights down</li>
+<li>Note Start Time</li>
+</ul>
+</td></tr>
+<tr><td> 11 </td><td> T1 demo + practice </td></tr>
+<tr><td> 12 </td><td> End Practice (check hands) </td></tr>
+<tr><td> 13 </td><td> T2 demo + practice (headphones) </td></tr>
+<tr><td> 14 </td><td> End Practice (check hands) </td></tr>
+<tr><td> 15 </td><td> T3 demo + practice (headphones) </td></tr>
+<tr><td> 16 </td><td> End Practice (check sleeping) </td></tr>
+<tr><td> 17 </td><td> T4 demo + practice </td></tr>
+<tr><td> 18 </td><td> Exit info to team </td></tr>
+<tr><td> 19 </td><td> Whisper replay by conductor </td></tr>
+<tr><td> 20 </td><td> End Practice </td></tr>
+
+<tr><td> 21 </td><td> Q & A </td></tr>
+
+<tr><td> 22 </td><td> End of session (headphones) </td></tr>
+
+<tr><td> 23 </td><td> Attend. Exits (lights up) </td></tr>
+<tr><td> 24 </td><td> Re-Play announcement </td></tr>
+<tr title="White Noise&#013Headphones&#013Lights down"><td> 25 </td><td> Re-Play
+<ul>
+<li>White Noise</li>
+<li>Headphones</li>
+<li>Lights down</li>
+</ul>
+
+</td></tr>
+<tr><td> 26 </td><td> End of Re-Play </td></tr>
+<tr><td> 27 </td><td> R-Attend Exit (lights up) </td></tr>
+<tr><td> 28 </td><td> Conformation from Hall Manager </td></tr>
+<tr><td> 29 </td><td> Note End Time </td></tr>
+<tr><td> 30 </td><td> Staffs Debriefing </td></tr>
+
+
+<!-- ***********Above Can be Modified for contents of checklist -->
+</table>
+</div>
+<div class="tab" id="post">
+
+iPad Post-event Checklist<br /><br />
+<i>Execute this checklist after the Knowledge Session has ended.</i>
+<table>
+<!-- ***********Below Can be Modified for contents of checklist -->
+
+<tr><td> 1 </td><td> Exit KS Application (‘Quit’ Button on Top right) </td><td> Quit </td></tr>
+<tr><td> 2 </td><td> iPad power switch </td><td> Depressed </td></tr>
+<tr><td> 3 </td><td> iPad powered OFF (Slide to power off) </td><td> Done </td></tr>
+<tr><td> 4 </td><td> Power strip power </td><td> OFF </td></tr>
+<tr><td> 5 </td><td> iPad charger from power strip </td><td> Removed </td></tr>
+<tr><td> 6 </td><td> Lightning_to_VGA Adaptor from iPad Lightning port </td><td> Removed </td></tr>
+<tr><td> 7 </td><td> Charging cable from iPad charger to Lightning_to_VGA Adaptor </td><td> Removed </td></tr>
+<tr><td> 8 </td><td> VGA cable from Lightning_to_VGA Adaptor </td><td> Removed </td></tr>
+<tr><td> 9 </td><td> Audio cable from iPad stereo port to Mixer </td><td> Removed </td></tr>
+<tr><td> 10 </td><td> Power strip with Surge protector </td><td> Removed</td></tr>
+<tr><td colspan="3"><i> Pack the following material </i></td></tr>
+<tr>
+<td> 11 </td><td> KS iPad: </td><td>Packed</td> </tr><tr>
+<td>12 </td>
+<td>iPad Charger & Charging cable (Lighting to USB) </td>
+<td>Packed</td>
+</tr>
+<tr>
+<td>13 </td>
+<td>Lightning_to_VGA Adaptor </td>
+<td>Packed </td>
+</tr>
+<tr>
+<td>14 </td>
+<td>Audio cable (stereo mini jack > 2x mono jack) </td>
+<td>Optional </td>
+</tr>
+<tr>
+<td> 15</td><td> Power strip with Surge protector </td><td> Optional</td>
+</tr>
+<tr>
+<td>16 </td>
+<td>Snapshot of Registration Summary Report </td>
+<td>Captured</td>
+</tr>
+<tr>
+<td>17 </td>
+<td>VGA cable </td>
+<td>Optional </td>
+</tr>
+<tr>
+<td>18 </td>
+<td>Ks Manual / Announcements & Checklists </td>
+<td>Packed </td>
+</tr>
+
+
+<!-- ***********Above Can be Modified for contents of checklist -->
+</table>
+</div>
+<div class="tab" id="trouble">
+Troubleshooting<br /><br />
+<i>In case of system breakdown, follow the basic principles for troubleshooting:</i>
+<br /><br />
+   <details><summary> S.T.O.P</summary>
+    <ul><li><b>S</b>tep back</li><li><b>T</b>hink</li><li><b>O</b>rganize</li><li><b>P</b>roceed</li></ul>
+    Follow the steps below in case of breakdown:
+    <ol><li>Pause the KS Application<ul><li>Click the "Pause" button on the application</li>
+        <li>Note the "Sequence" and "Time Elapsed"</li></ul></li>
+        <li>Inform the Conductor of the breakdown</li>
+        <li>Assess the nature of the breakdown. System breakdowns fall within four main categories:
+ <ul><li>Power Breakdown</li><li>Video Breakdown</li><li>Audio Breakdown</li><li>iPad Breakdown</li></ul>
+        </li>
+        <li>Follow the troubleshooting checklists for the appropriate categories.</li>
+        <li>Proceed to manual operation if breakdown is not resolved within an agreed upon period.</li>
+        <li>When resolved, Play media from Time Elapsed:
+            <ul><li>For failure during Instructions, the complete sequence to be played using reset and override buttons.</li>
+                <li>For failure during Practice, go to the sequence using reset and override buttons, Play the "End Practice" for a second and Pause it for the time remaining (Take the help of AV operator to mute and unmute if required). </li>
+            </ul>
+        </li>
+    </ol></details><hr />
+1<button onclick="showTab('power',this.innerHTML)">Power Recovery</button><br />
+2<button onclick="showTab('video',this.innerHTML)">Video Recovery</button><br />
+3<button onclick="showTab('audio',this.innerHTML)">Audio Recovery</button><br />
+4<button onclick="showTab('ipad',this.innerHTML)">iPad Recovery</button><br />
+5<button onclick="showTab('app',this.innerHTML)">KS App Recovery</button><br />
+</div>
+<div class="tab" id="power">
+Power Breakdown recovery Checklist<br /><br />
+<i>Execute this checklist if there is complete loss of Power in AV equipment. Continue through each step until the issue is resolved.</i>
+<table>
+<!-- ***********Below Can be Modified for contents of checklist -->
+
+<tr><td> 1 </td><td> MEDIA (note the time elapsed) </td><td> Paused </td></tr>
+<tr><td> 2 </td><td> UPS POWER </td><td> Recycled </td></tr>
+<tr><td> 3 </td><td> POWER STRIPS POWER </td><td> Checked </td></tr>
+<tr><td> 4 </td><td> iPad POWER </td><td> Checked </td></tr>
+<tr><td> 5 </td><td> MIXER POWER </td><td> Checked </td></tr>
+<tr><td> 6 </td><td> AMPLIFIER POWER </td><td> Checked </td></tr>
+<tr><td> 7 </td><td> PROJECTOR/TV POWER </td><td> Checked </td></tr>
+
+
+
+<!-- ***********Above Can be Modified for contents of checklist -->
+</table>
+</div>
+<div class="tab" id="video">
+iPad Video Recovery Checklist<br /><br />
+<i>Execute this checklist if there is a loss of video. Continue through each step until the issue is resolved.</i>
+<table>
+<!-- ***********Below Can be Modified for contents of checklist -->
+
+<tr><td> 1 </td><td> MEDIA (note the time elapsed) </td><td> Paused </td></tr>
+<tr><td> 2 </td><td> Press HOME button, iPad home screen appears on screen/TV </td><td> Checked </td></tr>
+<tr><td colspan="3"><i> If Home screen appears on screen/TV then continue to step 3, Else Proceed to step 8 </i></td></tr>
+<tr><td> 3 </td><td> Go back to app & set ‘Audio / Video Out’ switch to ‘ON’ </td><td> Recycle </td></tr>
+<tr><td> 4 </td><td> Reset Button </td><td> Tapped </td></tr>
+<tr><td> 5 </td><td> Play media from Time Elapsed </td><td> Play </td></tr>
+<tr><td> 6 </td><td> KS application ‘Quit’, Reboot iPad, and start app </td><td> Done </td></tr>
+<tr><td> 7 </td><td> Take help from KSCT </td><td> Called </td></tr>
+<tr><td colspan="3"><i> If home screen does not appear on screen/TV after step 2 then continue </i></td></tr>
+<tr><td> 8 </td><td> Remove, reverse, & reconnect the Lightning Connector to iPad </td><td> Reconnect </td></tr>
+<tr><td> 9 </td><td> VGA cable to Projector/TV connection </td><td> Check </td></tr>
+<tr><td> 10 </td><td> Take help from the AV Operator to trouble shoot the problem. </td><td> Proceed </td></tr>
+<tr><td> 11 </td><td> Announce break if needed </td><td> Done </td></tr>
+
+
+
+<!-- ***********Above Can be Modified for contents of checklist -->
+</table>
+</div>
+<div class="tab" id="audio">
+iPad Audio Recovery Checklist<br /><br />
+<i>Execute this checklist if there is a loss of audio. Continue through each step until the issue is resolved.</i>
+<table>
+<!-- ***********Below Can be Modified for contents of checklist -->
+
+<tr><td> 1 </td><td> MEDIA (note the time elapsed) </td><td> Paused </td></tr>
+<tr><td> 2 </td><td> Volume level slider in Control Centre set to MAX </td><td> Reset </td></tr>
+<tr><td> 3 </td><td> Play media and Check audio out with iPad speaker or a Headset if necessary. </td><td> Checked </td></tr>
+<tr><td colspan="3"><i> If media is audible in headphones, then take help from the AV Operator to troubleshoot, Else Continue to step 4</i></td></tr>
+<tr><td> 4 </td><td> Reset Button </td><td> Tapped </td></tr>
+<tr><td> 5 </td><td> Play media from Time Elapsed </td><td> Play </td></tr>
+<tr><td> 6 </td><td> KS application ‘Quit’, Reboot iPad, and start app </td><td> Done </td></tr>
+<tr><td> 7 </td><td> Take help from KSCT </td><td> Called </td></tr>
+
+
+
+<!-- ***********Above Can be Modified for contents of checklist -->
+</table>
+</div>
+<div class="tab" id="ipad">
+iPad Breakdown Recovery Checklist<br /><br />
+<i>Execute this checklist if iPad device becomes unresponsive.</i>
+<table>
+<!-- ***********Below Can be Modified for contents of checklist -->
+<tr><td> 1 </td><td> Note the time elapsed </td><td> Noted </td></tr>
+<tr><td> 2 </td><td> iPad Power button (for about 5 seconds) </td><td> Pressed </td></tr>
+<tr><td> 3 </td><td> Swipe to power off when displayed </td><td> OFF </td></tr>
+<tr><td> 4 </td><td> Reboot iPad, and start KS-app </td><td> Done </td></tr>
+<tr><td> 5 </td><td> Play media from Time Elapsed </td><td> Play </td></tr>
+
+<!-- ***********Above Can be Modified for contents of checklist -->
+</table>
+</div>
+<div class="tab" id="app">
+KS-App Recovery Checklist<br /><br />
+<i>Execute this checklist if KS-App shows the error "Untrusted Enterprise Developer" or getting closed while opening. Continue through each step until the issue is resolved.</i><table>
+<!-- ***********Below Can be Modified for contents of checklist -->
+
+<tr><td> 1 </td><td> Create hotspot on your mobile in case you don't have a Wi-Fi network (ensure internet connectivity) </td><td>Created</td></tr>
+<tr><td> 2 </td><td> Enable Wi-Fi in your iPad settings </td><td>Enabled</td></tr>
+<tr><td> 3 </td><td> Connect to hotspot or Wi-Fi network (enter password if needed) </td><td>Connected </td></tr>
+<tr><td> 4 </td><td> Wait for 10 seconds and relaunch KS-App </td><td>Launched</td></tr>
+<tr><td> 5 </td><td> Kill KS application, Reboot iPad, and start app </td><td> Done </td></tr>
+<tr><td> 6 </td><td> Take help from KSCT </td><td> Called </td></tr>
+
+
+
+<!-- ***********Above Can be Modified for contents of checklist -->
+</table>
+</div>
+<div class="tab" id="annc">
+Announcements<br /><br />
+1<button onclick="showTab('annc_h',this.innerHTML)">Announcements-Hin</button><br />
+2<button onclick="showTab('annc_n',this.innerHTML)">Announcements-Nep</button><br />
+3<button onclick="showTab('annc_e',this.innerHTML)">Announcements-Eng</button><br />
+</div>
+<div class="tab" id="annc_h">
+घोषणाएँ<br /><br />
+<div style="padding: 20px; color: #600060;">
+ज्ञान-सत्र के लिये स्क्रिप्ट (शुरू में)
+<p>
+( टैपर के बिना )<br />
+<b>नमस्कार !<br />
+मेरा नाम --- और आप --- हैं. हमलोग इस ज्ञान-सत्र में मदद के लिये हैं. अभ्यास के दौरान, यदि हमें लगा कि
+आपको मदद की ज़रूरत है, तो हम में से कोई आकर आपके कंधे पर इस प्रकार हाथ से इशारा करेंगे.<br />
+धन्यवाद !</b><br />
+</p>
+<hr />
+<p>
+( टैपर के साथ )<br />
+<b>नमस्कार !<br />
+मेरा नाम --- और आप --- हैं. हमलोग इस ज्ञान-सत्र में मदद के लिये हैं. अभ्यास के दौरान, यदि हमें लगा कि
+आपको मदद की ज़रूरत है, तो हम में से कोई आकर आपके कंधे पर इस प्रकार हाथ से इशारा करेंगे.
+महिलाओं के कंधे पर इशारा करने के लिए --- हमारा सहयोग करेगी.<br />
+धन्यवाद !
+</b>
+</p>
+<hr />
+ज्ञान-अभ्यास सत्र के लिए स्क्रिप्ट (शुरू में)
+<p>
+<b>नमस्कार !<br />
+मेरा नाम --- और आप --- हैं. हमलोग इस ज्ञान-अभ्यास सत्र में मदद के लिए हैं. अभ्यास के दौरान, यदि हमें
+लगा कि आपको मदद की ज़रूरत है, तो हम में से कोई आकर आपके कंधे पर इस प्रकार हाथ से इशारा करेंगे.
+महिलाओं के कंधे पर इशारा करने के लिए --- हमारा सहयोग करेंगी.
+अब कुछ ही समय में ज्ञान-अभ्यास सत्र शुरू होने जा रहा है.<br />
+धन्यवाद !
+</b>
+</p>
+<hr />
+सोलो ज्ञान-अभ्यास सत्र के लिए स्क्रिप्ट (शुरू में)
+<p>
+<b>नमस्कार !<br />
+मेरा नाम --- है. मैं इस ज्ञान-अभ्यास सत्र में मदद के लिए हूँ. अभ्यास के दौरान, यदि मुझे लगा कि आपको मदद
+की ज़रूरत है, तो मैं आपके कंधे पर इस प्रकार हाथ से इशारा करूँगा / करूँगी.
+महिलाओं के कंधे पर इशारा करने के लिए --- हमारा सहयोग करेंगी.
+अब कुछ ही समय में ज्ञान-अभ्यास सत्र शुरू होने जा रहा है.<br />
+धन्यवाद !</b>
+</p>
+<hr />
+सोलो ज्ञान-सत्र के लिये स्क्रिप्ट (शुरू में)
+<p>
+<b>नमस्कार !<br />
+मेरा नाम --- है. मैं इस ज्ञान-सत्र में मदद के लिये हूँ. अभ्यास के दौरान, यदि मुझे लगा कि आपको मदद की
+ज़रूरत है, तो मैं आपके कंधे पर इस प्रकार हाथ से इशारा करूँगा / करूँगी.
+महिलाओं के कंधे पर इशारा करने के लिए --- मेरा सहयोग करेगी.<br />
+धन्यवाद !</b>
+</p>
+<hr />
+
+के. एस. अबाउट टू स्टार्ट (पीछे कंट्रोल रूम से करना है)
+<p>1.<b> ज्ञान-सत्र का कार्यक्रम शुरू होने जा रहा है। कृपया शांतिपूर्वक बैठे रहें।</b></p>
+<p>2.<b> ज्ञान-सत्र के दौरान यदि आपका क्रियाओं से सम्बंधित प्रश्न हो तो कृपया हाथ खड़ा करें, आपकी मदद की जाएगी।</b></p>
+<p>3.<b> आप क्रियाओं को तभी शुरू करें, जब प्रेम रावत जी आपसे शुरू करने के लिए कहें।</b></p>
+<p>4.<b> यदि ज्ञान-सत्र के दौरान आपको शौचालय जाने की आवश्यकता हो तो आप शांतिपूर्वक जाएँ और आकर तुरंत ही अपने स्थान पर शांति से बैठ जायें।</b></p>
+<p>
+5.<b> ज्ञान-सत्र के दौरान यदि आपको किसी चीज़ की ज़रूरत हो या स्वास्थ्य सम्बंधी कोई तकलीफ़ हो तो कृपया हाथ खड़ा करें,
+उपस्थित डॉक्टर आपकी मदद करेंगे।</b>
+</p>
+<hr />
+ब्रेक अनाउन्स्मेंट (पीछे कंट्रोल रूम से करना है)
+<p>1.<b> क्रियाओं तथा अपने अनुभव से सम्बंधित चर्चा आपस में यहाँ भी न करें तथा क्षेत्रों में भी न करें.</b></p>
+<p>2.<b> अब 30 मिनट का ब्रेक होगा कृपया शांतिपूर्वक जाएँ और वापस आकर शांतिपूर्वक अपने स्थान को ग्रहण करें.</b></p>
+<hr />
+चौथी क्रिया के बाद रीप्ले के इच्छुक व्यक्तियों के लिए स्क्रिप्ट:
+<p><b> प्रेम रावत जी से --- क्रिया दुबारा समझने के लिए कृपया ज्ञान-सत्र के बाद अपने स्थान पर ही बैठे रहें.</b></p>
+<hr />
+फ़ॉलो-अप अनाउन्स्मेंट (ज्ञान-सत्र)
+<p>
+1.<b> निकट भविष्य में आपको ज्ञान-अभ्यास सत्र में भाग लेने का मौक़ा मिलेगा, जिसमें आपको ज्ञान की क्रियाओं
+को दोहराने और अभ्यास करने का अवसर प्राप्त होगा. आप इसमें भाग लेने की पूरी कोशिश करें.</b>
+</p>
+<p>
+2.<b> इस दौरान आप वीडियो कार्यक्रमों में भाग लेते रहें और अन्य दूसरे साधनों, जैसे साहित्य या वेबसाइट द्वारा
+सम्पर्क बनाए रखें. यह आपके विकास में सहायक होगा.</b>
+</p>
+<p>
+3.<b> जब आप हॉल के बाहर जाएँगे, तो आपको प्रेम रावत जी के पते का कार्ड मिलेगा.<br />
+धन्यवाद !</b>
+</p>
+<hr />
+रीप्ले अनाउन्स्मेंट (रीप्ले के शुरू में: पीछे कंट्रोल रूम से करना है)
+<p>
+<b>आपको इसलिए रुकने के लिए कहा गया है, ताकि आप प्रेम रावत जी से दुबारा --- क्रिया समझ सकें. इसमें
+लगभग --- मिनट का समय लगेगा. जब तक प्रेम रावत जी आपको क्रिया करने के लिए न कहें तब तक आप
+क्रिया न करें.</b>
+</p>
+<hr />
+एंड रीप्ले (पीक: पीछे कंट्रोल रूम से करना है)
+<p><b>अब आप अपनी आखें खोल सकते हैं.</b></p>
+
+</div>
+</div>
+<div class="tab" id="annc_n">
+स्क्रिप्ट्स<br /><br />
+<div style="padding: 20px; color: #600060;">
+ज्ञान-सत्र के लिये स्क्रिप्ट (शुरू में)
+<p>
+<b>नमस्कार !<br />
+मेरो नाम --- हो र उहाँ --- हुनुहुन्छ । हामी यहाँ यो ज्ञान सत्रमा सहयोग गर्नका लागि हौं । अभ्यासको समयमा तपाईंलाई सहयोग चाहिने जस्तो देखिएमा हामीमध्ये एक जनाले तपाईको काँधमा यसरी हातले ईशारा गर्नेछौं ।
+महिलाहरुको काँधमा ईशारा गर्नको लागि --- ले हामीलाई सहयोग गर्नुहुनेछ ।<br />
+धन्यवाद !
+</b>
+</p>
+<hr />
+सोलो ज्ञान-सत्र के लिये स्क्रिप्ट (शुरू में)
+<p>
+<b>नमस्कार !<br />
+मेरो नाम --- हो । म यो ज्ञानसत्रमा सहयोग गर्नका लागि हुँ । अभ्यासको समयमा तपाईंलाई सहयोग चाहिने जस्तो देखिएमा म तपार्ईंको काँधमा यसरी हातले ईशारा गर्नेछु ।
+महिलाहरुको काँधमा ईशारा गर्नको लागि --- ले मलाई सहयोग गर्नुहुनेछ । <br />
+धन्यवाद !</b>
+</p>
+<hr />
+
+ज्ञान-अभ्यास सत्र के लिए स्क्रिप्ट (शुरू में)
+<p>
+<b>नमस्कार !<br />
+मेरो नाम --- हो र उहाँ --- हुनुहुन्छ । हामी यहाँ यो ज्ञान दोहोर्‍याउने कार्यक्रममा सहयोग गर्नका लागि हौं । अभ्यासको समयमा तपाईंलाई सहयोग चाहिने जस्तो देखिएमा हामीमध्ये एक जनाले तपाईंको काँधमा यसरी हातले ईशारा गर्नेछौं ।
+महिलाहरुको काँधमा ईशारा गर्नको लागि --- ले हामीलाई सहयोग गर्नुहुनेछ ।
+अब केही समय पछि ज्ञान दोहोर्‍याउने कार्यक्रम शुरु हुनेछ ।<br />
+धन्यवाद !
+</b>
+</p>
+<hr />
+सोलो ज्ञान-अभ्यास सत्र के लिए स्क्रिप्ट (शुरू में)
+<p>
+<b>नमस्कार !<br />
+मेरो नाम --- हो । म यो ज्ञान दोहोर्‍याउने कार्यक्रममा सहयोग गर्नका लागि हुँ । अभ्यासको समयमा तपाईंलाई सहयोग चाहिने जस्तो देखिएमा म तपार्ईंको काँधमा यसरी हातले ईशारा गर्ने छु ।
+महिलाहरुको काँधमा ईशारा गर्नको लागि --- ले मलाई सहयोग गर्नुहुनेछ ।
+अब केही समय पछि ज्ञान दोहोर्‍याउने कार्यक्रम शुरु हुनेछ । <br />
+धन्यवाद !</b>
+</p>
+<hr />
+
+
+के. एस. अबाउट टू स्टार्ट (पछाडिबाट गर्नुहोस्)
+<p>1.<b> कृपया शान्तिपूर्वक बसिरहनुहोस् । ज्ञान सत्र कार्यक्रम शुरु हुन लागेको छ । </b></p>
+<p>2.<b> ज्ञान सत्रमा यदि तपाईं सँग कृयाहरु सम्बन्धि कुनै प्रश्न छ भने, कृपया हात उठाउनुहोस् तपाईंलाई मद्दत गरिनेछ ।</b></p>
+<p>3.<b> जब प्रेम रावत जी ले तपाईंलाई कृया सुरु गर्नुहोस् भन्नुहुन्छ, तब मात्र तपाईं कृया शुरु गर्नुहोस् । </b></p>
+<p>4.<b> ज्ञान सत्रको बिचमा तपाईंलाई शौचालय जाने आवश्यकता परेमा, तपाईं शान्ति पूर्वक जानुहोस् र तुरुन्तै आफ्नो स्थानमा आएर शान्तिपूर्वक बस्नुहोस् । </b></p>
+<p>
+5.<b> ज्ञान सत्रको बिचमा यदि तपाईंलाई कुनै चीजको आवश्यकता पर्‍यो वा स्वास्थ्य सम्बन्धि कुनै समस्या भयो भने कृपया हात उठाउनुहोस्, उपस्थित डाक्टरले तपाईंलाई मद्दत गर्नेछन् ।
+</b>
+</p>
+<hr />
+ब्रेक अनाउन्स्मेंट (पछाडीबाट गर्नुहोस्)
+<p>1.<b> कृयाहरु तथा आफ्नो अनुभवको चर्चा यहाँ पनि नगर्नुहोस् र आफ्नो क्षेत्रमा पनि नभन्नुहोस् ।</b></p>
+<p>2.<b> अब आधा घण्टाको ब्रेक हुनेछ । कृपया शान्तिपूर्वक जानुहोस् र आएर शान्ति पूर्वक आफ्नो स्थान ग्रहण गर्नुहोस् ।</b></p>
+<hr />
+चौथी क्रिया के बाद रीप्ले के इच्छुक व्यक्तियों के लिए स्क्रिप्ट:
+<p><b> प्रेम रावत जी द्वारा --- कृया दोहोर्‍याएर बुझ्नको लागि ज्ञान सत्र पछि कृपया आफ्नो स्थानमा बस्नुहोस् ।</b></p>
+<hr />
+फ़ॉलो-अप अनाउन्स्मेंट (ज्ञान-सत्र:पछाडिबाट गर्नुहोस्)
+<p>
+1.<b> निकट भविष्यमा तपाईंले ज्ञान अभ्यास शत्रमा भाग लिने मौका पाउनु हुनेछ जसमा तपाईंले ज्ञानका कृयाहरु दोहोर्‍याउने र अभ्यास गर्ने अवसर पाउनुहुनेछ । कृपया यो कार्यक्रममा भाग लिने पूरा प्रयास गर्नुहोला । </b>
+</p>
+<p>
+2.<b> त्यसबेला सम्ममा भिडियो कार्यक्रमहरु तथा साहित्य वा वेभसाइट जस्ता अन्य साधनहरु द्वारा सम्पर्कमा बस्नुहोस् । यसले तपाईंलाई आफ्नो विकासमा सहायता गर्दछ ।</b>
+</p>
+<p>
+3.<b> तपाईंले यस हलबाट बाहिर जाने बेलामा एउटा प्रेम रावत जी को ठेगानाको कार्ड पाउनुहुनेछ ।
+<br />
+धन्यवाद !</b>
+</p>
+<hr />
+रीप्ले अनाउन्स्मेंट (रीप्ले के शुरू में: पछाडीबाट गर्नुहोस्)
+<p>
+<b> प्रेम रावत जी ले देखाउनु भएको --- कृया तपाईंले दोहोर्‍याएर बुझ्न पाउनुहोस् भनेर तपाईंलाई यहाँ बस्न अनुरोध गरिएको हो । यसको लागि करिब --- मिनेटको समय लाग्ने छ । जबसम्म प्रेम रावत जी ले तपाईंलाई कृया गर्नुहोस् भन्नुहुन्न, तबसम्म तपाईं कृया नगर्नुहोस् ।</b>
+</p>
+<hr />
+एंड रीप्ले (पीक: पछाडीबाट गर्नुहोस्)
+<p><b>अब तपाईं आँखा खोल्न सक्नुहुन्छ ।</b></p>
+
+</div>
+</div>
+<div class="tab" id="annc_e">
+Announcements English<br /><br />
+<div style="padding: 20px; color: #600060;">
+Script for KS (At beginning from front)
+<p>
+<b>Namaskar!<br />
+My name is --- and s/he is ---. We are / I'm here to facilitate this
+knowledge session. If we / I see that you need assistance during the practice.
+One of us / I will tap you on the shoulder.<br />
+For tapping on lady’s shoulder,
+--- shall help us / me.<br />
+Thank you!<br />
+</b>
+</p>
+<hr />
+KS About to start (from Control room)
+<p>1.<b> The knowledge session shall start in a short while, please be seated quietly.</b></p>
+<p>2.<b> During the knowledge session, if you have any question about techniques of knowledge, please raise your hand, you will be assisted.</b></p>
+<p>3.<b> Please do not begin practicing techniques until Prem Rawat tells you to begin</b></p>
+<p>4.<b> If you need to use the washroom during the knowledge session, please do so and then return to your seat as soon as possible.</b></p>
+<p>5.<b> During the knowledge session, if you need anything or have any health problem, please raise your hand, a Physician will help you.</b></p>
+<hr />
+Break Announcement (from Control room)
+<p>1.<b> Please do not discuss about techniques of knowledge or your experience with anyone here or elsewhere.</b></p>
+<p>2.<b> Please take a 30-min break now and then return to your seat quietly.</b></p>
+<hr />
+Follow-up Announcement (KS)
+<p>1.<b> In near future, you will be invited to a Knowledge Practice Session. Where you will have a chance to review and practice the Techniques of Knowledge. Please make every effort to attend.</b></p>
+<p>2.<b> In the meantime, please keep in touch through the video events and other resources that will support you in the ongoing process.</b></p>
+<p>3.<b> As you leave the hall, you may pick-up Prem Rawat’s address card.</b></p>
+
+
+</div>
+</div>
+<div class="tab" id="report">
+Reports<br /><br />
+<i>SMS report without CV must reach KS office same day,<br />
+    As soon as is reasonably possible (and no later than 48 hrs) after completion of a 
+Knowledge Session or Knowledge Review, KS Facilitator(s) are expected to complete 
+on-line Follow-up and Assessment reports.</i>
+<form>
+<div id="div_id" style="background-color: lightcyan; padding: 20px">
+<b>KS/KR Report</b><br />
+<div>Event Type:</div>
+<input type="text" placeholder="KS/KR" /><br />
+
+<div>Media Type:</div>
+<input type="text" placeholder="Peak/Key6" /><br />
+
+<div>
+Date:</div>
+<input type="text" placeholder="dd-mm-yyyy" /><br />
+
+<div>
+Venue:</div>
+<input type="text" placeholder="Address of Hall" /><br />
+
+<div>
+Operator:</div>
+<input type="text" placeholder="KS operator" /><br />
+
+<div>
+Conductor:</div>
+<input type="text" placeholder="KS conductor" /><br />
+
+<div>
+Start Time:</div>
+<input type="text" placeholder="hh:mm" /><br />
+
+<div>
+End Time:</div>
+<input type="text" placeholder="hh:mm" /><br />
+
+<div>
+Ks Kit:</div>
+<input type="text" placeholder="KS iPad Number" /><br />
+
+<div>
+First Language:</div>
+<input type="text" placeholder="Language" /><br />
+
+<div>
+Second Language:</div>
+<input type="text" placeholder="--" /><br />
+
+<div>
+Event Manager:</div>
+<input type="text" placeholder="Name of EM" /><br />
+
+<div>
+Contact No(EM):</div>
+<input type="text" placeholder="Mobile no. of EM" /><br />
+
+<div>
+Production Manager:</div>
+<input type="text" placeholder="Name of AV" /><br />
+
+<div>
+Contact No(AV):</div>
+<input type="text" placeholder="Mobile no. of AV" /><br />
+
+<div>
+People for Replay:</div>
+<input type="text" placeholder="Attendies for Replay" /><br />
+
+<div>
+Number of Intervention(s):</div>
+<input type="text" placeholder="3 + 1 over cloth" /><br />
+
+<div>
+Total No. of Participants:</div>
+<input type="text" placeholder="No. of Attendies" /><br />
+
+
+<i>CV:AOTCT</i>
+<br />
+<div>Self Operator:</div>
+<input type="text" placeholder="99999" /><br />
+<div>Self Conductor:</div>
+<input type="text" placeholder="99999" /><br />
+<br />
+<div>Mutual Operator:</div>
+<input type="text" placeholder="99999" /><br />
+<div>Mutual Conductor:</div>
+<input type="text" placeholder="99999" /><br />
+<br />
+<div>Critical Data:</div>
+<textarea cols="21" rows="4"></textarea><br />
+
+<div>
+Preferred Assessment call time:</div>
+<input type="text" placeholder="Date and time of Assesment" /><br />
+
+
+</div>
+<button type="button" style="margin: 20px" onclick="CopyToClipboard('div_id')">Copy Report</button>
+
+<hr />
+<div id="my" style="background-color:#FFFFBB; padding: 20px">
+<b>Personal Data</b><br />
+<div>Feedbacks:</div>
+<textarea cols="21" rows="4"></textarea><br />
+<div>Learnings:</div>
+<textarea cols="21" rows="4"></textarea><br />
+<div>Others:</div>
+<textarea cols="21" rows="4"></textarea><br />
+
+</div>
+<button type="button" style="margin: 20px" onclick="CopyToClipboard('my')">Copy Data</button>
+</form>
+<hr />
+<i>File report online to KSTTools:</i><button> <a href="https://kstools.wopg.org/keys/login_form.php?error=6&" target="_blank">KST Tools</a></button><br />
+<i>File Technical Issue if any:</i><button> <a href="https://forms.gle/irYQSJzW39puJZRf7" target="_blank">Technical Failure</a></button><br />
+<i>File your learning plan:</i><button><a href="https://forms.gle/vUcjoVNk6DoANX1B7" target="_blank">Learning Plan</a></button>
+</div>
+<div class="tab" id="contact">
+Contacts<br /><br />
+Technical Support:<br />
+<a href="tel:+918007103040">Yogesh Lad (8007103040)</a><br />
+<a href="tel:+919811141238">Shivadya Prasad (9811141238)</a><br />
+<a href="tel:+919651996205">Sanjay Kumar (9651996205)</a><br />
+<a href="tel:+919427179535">Rajesh Pawar (9427179535)</a><br />
+<br />iPad Movement:<br />
+<a href="tel:+919891102577">Devendra Singh (9891102577)</a><br />
+<br />AV:<br />
+<a href="tel:+919899013246">Prasadanand (9899013246)</a><br />
+<br />Conductor's Support:<br />
+<a href="tel:+917291819721">Sujata Chowdhury (7291819721)</a><br />
+<a href="tel:+919015359301">Haribhajnanand (9015359301)</a><br />
+<br />Scheduling:<br />
+<a href="tel:+919900178425">Ranjani G (9900178425)</a><br />
+<a href="tel:+919923331131">Kalpana Kaushal (9923331131)</a><br />
+<a href="tel:+919650438305">Reena Prasad (9650438305)</a><br />
+<a href="tel:+918969509960">Rani Dhar (8969509960)</a><br />
+<br />Venue Support:<br />
+<a href="tel:+919868871155">K K Miglani (9868871155)</a><br />
+<br />KS office:<br />
+<a href="tel:+919873255322">Neeru Borana (9873255322)</a><br />
+<br />Nepal:<br />
+<a href="tel:+9779851086803">Durga Ghimire (+977 9851086803)</a><br />
+<br />Sri Lanka:<br />
+<a href="tel:+94777780420">Rajendren G (+94 777780420)</a><br />
+<br />Other KSCT:<br />
+<a href="tel:+919899211332">Pramod Kaushik (9899211332)</a><br />
+<a href="tel:+919919254495">A K Singh (9919254495)</a><br />
+<a href="tel:+919454000111">R K Rai (9454000111)</a><br />
+<a href="tel:+919592632233">H B Verma (9592632233)</a><br />
+<a href="tel:+919654711691">R C Choudhary (9654711691)</a><br />
+<a href="tel:+919816277142">S P Sharma (9816277142)</a><br />
+<hr />
+&nbsp;&nbsp;
+
+<details><summary>Online Contents</summary>
+<i>Please connect to internet for following links</i>
+<br />
+<button><a href="https://wopi.talentlms.com/" target="_blank">LMS</a></button><br />
+<button> <a href="https://forms.gle/BfYSRupv7uQWbCXw6" target="_blank">KS iPad Survey</a></button><br />
+<button><a href="https://forms.gle/jcgcWuhj5ZYcCgXv7" target="_blank">Edit Your Contact Details</a></button><br />
+<button><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ5MGGtmtJLtlVj88nBC4LW9n08zLpY8yG51nvZ2vqOi1Ui2Xo_zF8dENVX1Y1l3E1NJF-VPAqJnpf5/pubhtml?gid=118629576&single=true" target="_blank">View Contact Details</a></button><br />
+</details>
+<br />
+</div>
+<div class="tab" id="home">
+Home<br /><br />
+<br />
+01<button onclick="showTab('preks',this.innerHTML)">Pre KS Activities</button><br />
+02<button onclick="showTab('durks',this.innerHTML)">During KS Activities</button><br />
+03<button onclick="showTab('trouble',this.innerHTML)">Troubleshooting</button><br />
+04<button onclick="showTab('annc',this.innerHTML)">Announcements</button><br />
+05<button onclick="showTab('report',this.innerHTML)">Report</button><br />
+06<button onclick="showTab('contact',this.innerHTML)">Contacts &amp; links</button><br />
+</div>
+
+<script>
+var rows = document.getElementsByTagName("tr");
+for (var i = 0; i < rows.length; i++) {
+rows[i].onclick = function() {
+
+var step = "Step " + this.children[0].innerText;
+
+
+const cssObj = window.getComputedStyle(this, null);
+let text = cssObj.getPropertyValue("color");
+
+if(text === 'rgb(0, 0, 0)') {
+
+//var data = this.getAttribute('title');
+//if (confirm(data + '\nComplete ' + step) == true) {
+
+if (confirm('Complete ' + step + "\n" + this.children[1].innerText) == true) {
+this.classList.toggle("clicked");
+myFunction(step);
+}} else { if (confirm('Uncheck ' + step) == true) {
+this.classList.toggle("clicked");
+myFunction(step);
+}
+}
+}
+}
+function myFunction(step) {
+const d = new Date().toLocaleTimeString('en-GB');
+document.getElementById("demo").innerHTML = step + ' - ' +d;
+}
+
+var p = 'preFl';
+function showTab(n,m) {
+document.getElementById('chead').innerHTML=m;
+var x = document.getElementsByClassName("tab");
+x[p].style.display = "none";
+x[n].style.display = "block";
+if(p !== n){document.getElementById("demo").innerHTML = '';}
+p=n;
+}
+
+function CopyToClipboard(id){
+var myDivision = document.getElementById(id);
+var textToCopy = document.createElement('textarea');
+for (var i = 0; i < myDivision.children.length; i++) {
+var child = myDivision.children[i];
+textToCopy.value += (child.value || child.innerText) + "\n";
+//if (child.tagName === "P" || child.tagName === "INPUT" || child.tagName === "textarea") {}
+}
+document.body.appendChild(textToCopy);
+textToCopy.select();
+try {
+document.execCommand('copy');
+textToCopy.parentNode.removeChild(textToCopy);
+alert('Paste it to your records');
+} catch (err) {
+alert('Unable to copy!' + err);
+}
+}
+</script>
+<noscript><br /><br /><h2>Sorry, this browser does not support JavaScript!</h2></noscript>
+</body>
+</html>
